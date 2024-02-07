@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+main {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.intro {
+    width: 80vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px -4px rgba(172, 184, 4, 0.75);
+    overflow-y: auto
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40vw;
+    height: 80vh;
+
+}
+
+.apresentacao>h1 {
+    margin: 10px;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao>p {
+    margin: 10px;
+    margin-top: 110px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+}
+
+.navegador {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    width: 40vw;
+    height: 80vh;
+
+}
+
+.navegador>h1 {
+    margin: 10px;
+    margin-top: 200px;
+    margin-right: 40px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#linha {
+    height: 300px;
+    border: 1px solid rgba(107, 114, 8, 0.75);
+
+}
+
+.secao-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-top: 110px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+}
+
+.links>a {
+    text-decoration: none;
+    color: rgba(107, 114, 8, 0.75);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.links>a:hover {
+    transition: all 0.15s linear;
+    color: #cff014;
+}
+
+.sobre {
+    width: 80vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px -4px rgba(172, 184, 4, 0.75);
+    overflow-y: auto;
+}
+
+.detalhes-sobre {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    overflow-y: auto;
+}
+
+.detalhes-sobre>p {
+    margin: 10px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#img {
+    background-image: url(img/63c17480828f78918b59c7ccab3a39bd_diffusion_cyber_punk.jpg_play_logo_BR.jpg);
+    border-radius: 50%;
+    background-position: 1px -5px;
+    height: 220px;
+    width: 220px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.midias {
+    margin-top: 40px;
+}
+
+.midias>a>button {
+    color: yellow;
+    background-color: black;
+    margin: 0;
+
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    border-style: none;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.midias>a {
+    text-decoration: none;
+
+}
+
+.git:hover {
+    background-color: #e5ff003a;
+    transition: all 0.15s linear;
+    box-shadow: 0 0 0.3em #cff014;
+    color: #ffffff;
+    border: 2px solid #cff014;
+}
+
+.instagram:hover {
+    background-color: #e5ff003a;
+    transition: all 0.15s linear;
+    box-shadow: 0 0 0.3em #cff014;
+    color: #ffffff;
+    border: 2px solid #cff014;
+}
+
+.linkedin:hover {
+    background-color: #e5ff003a;
+    transition: all 0.15s linear;
+    box-shadow: 0 0 0.3em #cff014;
+    color: #ffffff;
+    border: 2px solid #cff014;
+}
+
+.sobre-projeto {
+    width: 80vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px -4px rgba(172, 184, 4, 0.75);
+    overflow-y: auto
+}
+
+.equipe {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.equipe>p {
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 110px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.detalhes-projeto {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.detalhes-projeto>p {
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 110px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+footer {
+    width: auto;
+    height: 9vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .intro {
+        box-shadow: 0px 5px 5px -4px rgba(172, 184, 4, 0.75);
+    }
+
+    .apresentacao>h1 {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .apresentacao>p {
+        margin: 0;
+        font-size: 25px;
+        padding: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+
+    }
+
+    .navegador>h1 {
+        font-size: 40px;
+        margin-right: 35px;
+
+    }
+
+    .secao-links {
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+}
