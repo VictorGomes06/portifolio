@@ -17,15 +17,13 @@
 
 <body>
     <main>
-        <section class="intro">
+        <section class="intro" onmouseover="startAnimation()" onmouseout="stopAnimation()">
             <div class="apresentacao">
                 <h1>
                     Portifólio
                 </h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur sequi tempore nostrum
-                    perferendis commodi officiis illo consequuntur rem, aut fuga nesciunt possimus. Voluptatem aut vero
-                    quod maxime! Laborum, ea!
+                    Seja bem vindo(a) ao meu portifólio.
                 </p>
             </div>
             <div class="navegador">
@@ -39,6 +37,7 @@
                     <div id="linha"></div>
                 </div>
             </div>
+            <div class="line"></div>
         </section>
         <section class="sobre" id="sobre">
             <div id="img">
@@ -46,13 +45,7 @@
             </div>
             <div class="detalhes-sobre">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, eos nam porro aperiam quisquam
-                    libero deserunt tenetur corporis, voluptate aspernatur ullam eveniet necessitatibus velit! Mollitia
-                    dolorem quaerat consectetur? Maxime, tempora!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem, laboriosam ullam quis
-                    commodi corporis iste placeat amet neque non voluptatibus nesciunt sit tempore nam quisquam
-                    aspernatur fugit? Earum, modi![]
-
+                    Olá , meu nome é Victor de Moraes Gomes tenho dezenove anos e sou iniciante em programação .
                 </p>
                 <div class="midias">
                     <a href="https://github.com/VictorGomes06" target="_blank">
@@ -96,37 +89,48 @@
             </div>
         </section>
         <section class="sobre-projeto" id="sobre-projeto">
-            <div class="equipe">
-                <div id="imagem01">
+            <div class="projetos">
+                <div class="projetoER">
+                    <div id="imagem01">
 
+                    </div>
+
+                    <p>Equipe ER404, formada por quatro membros desenvolvemos esse site cujo objetivo é apresentar noso
+                        projeto integrador com mais detalhes e ter fácil acesso a documentações sobre nosso projeto.</p>
                 </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a id nam deleniti reprehenderit
-                    corporis alias assumenda maxime officia quaerat? Incidunt nulla dolore officia delectus vitae
-                    minus neque porro consequatur.</p>
+                <div class="projetoCCC">
+                    <div id="imagem02"></div>
+                    <p>
+                        Projeto CCC , O "Projeto CCC" foi desenvolvido baseando-se em uma demanda da industria , ode
+                        desenvolvemos um e commerce para uma loja de materiais de contrução.</a>.
+                    </p>
+                </div>
             </div>
-            <div class="detalhes-projeto">
-                <div id="imagem02"></div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam asperiores eos porro, a nihil
-                    exercitationem animi dicta iste consequatur facere quasi? Alias voluptatibus ipsum modi iste aut quo
-                    facere <a href="https://lucas-braga04.github.io/siteER404/">Saiba mais</a>.
-                </p>
+            <div class="botao">
+                <a href="https://lucas-braga04.github.io/siteER404/" target="_blank">
+
+                    <button class="">
+                        Saiba mais
+                    </button>
+                </a>
             </div>
         </section>
         <section class="tecnologias" id="tecnologias">
             <h1>Tecnologias</h1>
             <div class="secao-icons">
                 <div class="tecnologias01">
-                    <a href=""><img src="img/biblioteca.png" alt="">react</a>
-                    <a href=""><img src="img/java.png" alt=""> JAVA</a>
-                    <a href=""><img src="img/html-5.png" alt="">HTML</a>
+                    <a href="https://react.dev/" target="_blank"><img src="img/biblioteca.png" alt="">react</a>
+                    <a href="https://www.java.com/pt-BR/" target="_blank"><img src="img/java.png" alt=""> JAVA</a>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img
+                            src="img/html-5.png" alt="">HTML</a>
 
                 </div>
                 <div class="tecnologias02">
-                    <a href=""><img src="img/js.png" alt="">JAVASCRIPT</a>
-                    <a href="" id="css"><img src="img/css-3.png" alt="">CSS</a>
-                    <a href=""><img src="img/node-js.png" alt="">NODE-JS</a>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img
+                            src="img/js.png" alt="">JAVASCRIPT</a>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" id="css"><img
+                            src="img/css-3.png" alt="">CSS</a>
+                    <a href="https://nodejs.org/en" target="_blank"><img src="img/node-js.png" alt="">NODE-JS</a>
                 </div>
             </div>
         </section>
@@ -135,6 +139,7 @@
     <footer>
         &copy;Victor de moraes gomes
     </footer>
+    <script src="/script.js"></script>
 </body>
 
 </html>

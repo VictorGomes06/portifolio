@@ -30,6 +30,8 @@ main {
     overflow-y: auto
 }
 
+
+
 .apresentacao {
     display: flex;
     flex-direction: column;
@@ -165,7 +167,6 @@ main {
     color: yellow;
     background-color: black;
     margin: 0;
-
     border-radius: 30px;
     font-family: 'Ubuntu Mono', monospace;
     border-style: none;
@@ -217,16 +218,18 @@ main {
     overflow-y: auto
 }
 
-.equipe {
+.projetoER {
     width: 40vw;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+
 }
 
-.equipe>p {
+.projetoER>p {
     color: #ffffff;
     margin: 10px;
     margin-top: 110px;
@@ -237,17 +240,18 @@ main {
     font-style: normal;
 }
 
-.detalhes-projeto {
+.projetoCCC {
     width: 40vw;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+
 }
 
-.detalhes-projeto>p {
+.projetoCCC>p {
     color: #ffffff;
     margin: 10px;
     margin-top: 110px;
@@ -258,10 +262,50 @@ main {
     font-style: normal;
 }
 
-.detalhes-projeto>p>a {
-    text-decoration: none;
+.projetos {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.botao {
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+}
+
+.links>a:hover {
+    transition: all 0.15s linear;
+    color: #cff014;
+}
+
+.botao>a:hover {
+    transition: all 0.15s linear;
+    color: #cff014;
+}
+
+.botao>a>button {
     color: yellow;
+    background-color: black;
+    margin: 0;
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    border-style: none;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
 }
+
+.botao>a>button:hover {
+    background-color: #e5ff003a;
+    transition: all 0.15s linear;
+    box-shadow: 0 0 0.3em #cff014;
+    color: #ffffff;
+    border: 2px solid #cff014;
+}
+
 
 .tecnologias01 {
     display: flex;
@@ -316,7 +360,7 @@ main {
 }
 
 #imagem01 {
-    background-image: url(/img/LOGO404.png);
+    background-image: url(img/LOGO404.png);
     height: 220px;
     width: 450px;
     margin: 0;
@@ -326,7 +370,7 @@ main {
 }
 
 #imagem02 {
-    background-image: url(/img/LOGO-CCC.png);
+    background-image: url(img/LOGO-CCC.png);
     height: 220px;
     width: 450px;
     margin: 0;
